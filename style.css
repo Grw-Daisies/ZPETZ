@@ -1,0 +1,222 @@
+body
+{
+    background-color: rgb(56, 134, 144);
+    color: rgb(50, 170, 200);
+    text-align: center;
+    justify-content: center;
+    font-family: monospace;
+}
+
+header
+{
+    background-color: rgb(217, 208, 106, 0.875);
+    height: 20%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 10px;
+    font-size: 100%;
+}
+
+.icon img
+{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(30, 110, 87);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.slogon
+{
+    background-color: rgb(57, 146, 121);
+    margin: 15px;
+    padding: 25px;
+    height: 115px;
+    color: rgba(255, 250, 250, 0.775);
+    border-radius: 20px;
+}
+
+.slogon h1
+{
+    margin: 10px;
+}
+
+.slogon h2
+{
+    margin-left: 10px;
+}
+
+nav
+{
+    background-color: rgba(30, 110, 87);
+    height: 70px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+button
+{
+    color: aliceblue;
+    font-size: 20px;
+    background-color: rgba(217, 208, 106, 0.875);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+main
+{
+    background-color: rgba(217, 208, 106, 0.875);
+    height: 3400px;
+    margin: 10px;
+    font-size: 32px;
+    text-align: center;
+    justify-content: center;
+}
+
+.task_panel
+{
+    height: 3370px;
+    background-color: rgba(0, 0, 0, 0);
+    /* display: none; */
+    justify-content: center;
+    text-align: center;
+}
+
+.info_panel
+{
+    background-color: rgba(42, 103, 111);
+    height: 3370px;
+    display: none;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.info p
+{
+    background-color: rgba(241, 255, 189);
+    font-family: fantasy;
+    font-size: 32px;
+}
+
+.doctor_panel
+{
+    background-color: rgba(86, 44, 144, 0.407);
+    height: 870px;
+    display: none;
+}
+
+.static_panel
+{
+    background-color: rgb(67, 117, 153);
+    height: 3370px;
+    display: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+ol
+{
+    background-color:  rgba(48, 107, 146, 0.614);
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.accordeon_panel
+{
+    display: block;
+}
+
+div p
+{
+    background-color: rgba(48, 112, 146, 0.614);
+    width: 90%;
+    padding: 15px;
+    border-radius: 20px;
+    display: block;
+}
+
+li
+{
+    margin: 30px;
+}
+
+li button
+{
+    background-color: rgba(48, 107, 146, 0.614);
+    font-size: 32px;
+    width: 100%;
+    padding: 15px;
+}
+
+li button:hover
+{
+    background-color: rgba(63, 189, 211, 0.614);
+}
+
+.task
+{
+    height: 3370px;
+    background-color: rgb(42, 103, 111);
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.pin
+{
+    background-color: rgba(198, 51, 51, 0);
+    font-size: 32px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+input[type="text"]
+{
+    font-size: 25px;
+    background-color: rgb(241, 255, 189);
+    color: rgba(0, 0, 0, 0.612);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+input[type="button"]
+{
+    font-size: 25px;
+    background-color: rgb(27, 90, 70);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+h3
+{
+    background-color: rgb(51, 139, 198);
+    border-radius: 20px;
+}
+
+footer
+{
+    background-color: rgb(38, 119, 88);
+    height: 150px;
+    margin: 10px;
+    display: flex;
+}
